@@ -1,4 +1,9 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"d:/Media/Projects/Coding/SpaceTrader/Content/Fonts/Default.spritefont","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Fonts/Default.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21529,0.1010112
-"d:/Media/Projects/Coding/SpaceTrader/Content/Ports/mercury.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Ports/mercury.xnb","TextureProcessor","Texture2DContent",1424905,4194389,0.1148524
-"d:/Media/Projects/Coding/SpaceTrader/Content/UI/buy.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/UI/buy.xnb","TextureProcessor","Texture2DContent",164888,414625,0.0077587
+"d:/Media/Projects/Coding/SpaceTrader/Content/Fonts/Default.spritefont","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Fonts/Default.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21529,0.1185269
+"d:/Media/Projects/Coding/SpaceTrader/Content/Ports/mercury.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Ports/mercury.xnb","TextureProcessor","Texture2DContent",2460496,6291541,0.2379544
+"d:/Media/Projects/Coding/SpaceTrader/Content/UI/button.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/UI/button.xnb","TextureProcessor","Texture2DContent",123918,414625,0.0156451
+"d:/Media/Projects/Coding/SpaceTrader/Content/UI/buy.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/UI/buy.xnb","TextureProcessor","Texture2DContent",164888,414625,0.0095401
+"d:/Media/Projects/Coding/SpaceTrader/Content/UI/MainMenu.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/UI/MainMenu.xnb","TextureProcessor","Texture2DContent",2120388,6291541,0.1167255
+"d:/Media/Projects/Coding/SpaceTrader/Content/UI/screenEmpty.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/UI/screenEmpty.xnb","TextureProcessor","Texture2DContent",1655624,4194389,0.0685417
+"d:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalButton.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/UI/terminalButton.xnb","TextureProcessor","Texture2DContent",67086,20485,0.0151648
+"d:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalEmpty.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/UI/terminalEmpty.xnb","TextureProcessor","Texture2DContent",1424617,3276181,0.0491176

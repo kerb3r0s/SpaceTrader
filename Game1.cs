@@ -6,23 +6,41 @@ using SpaceTrader.UI;
 
 namespace SpaceTrader;
 
+
 public class Game1 : Game
 {
+    private KeyboardState previousKeyboardState;
+    public static Game1 Instance { get; private set; }
+    public static ScreenManager ScreenManagerRef { get; private set; }
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+
     PortOverviewScreen portOverviewScreen;
     TradeScreen tradeScreen;
-
+    TravelScreen travelScreen;
+    MainMenuScreen mainMenu;
+    ScreenManager screenManager;
+    
     public Game1()
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
+        Instance = this;
+    }
+
+    public static void ExitGame()
+    {
+        Instance.Exit();
     }
 
     protected override void Initialize()
     {
-        GameManager.Instance.StartNewGame();
+        _graphics.IsFullScreen = false;
+        _graphics.PreferredBackBufferWidth = 1600;
+        _graphics.PreferredBackBufferHeight = 900;
+        _graphics.ApplyChanges();
+        GameManager.Instance.SetGameState(GameState.MainMenu);
         base.Initialize();
     }
 
@@ -30,59 +48,45 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-        GameManager.Instance.StartNewGame();
-        portOverviewScreen = new PortOverviewScreen();
-        portOverviewScreen.LoadContent(GraphicsDevice, Content);
-        tradeScreen = new TradeScreen();
-        tradeScreen.LoadContent(Content);
+        // Setup screen manager FIRST
+        screenManager = new ScreenManager(GraphicsDevice, Content);
+        ScreenManagerRef = screenManager;
+
+        screenManager.Register(GameState.MainMenu, new MainMenuScreen());
+        screenManager.Register(GameState.TradeScreen, new TradeScreen());
+        screenManager.Register(GameState.TravelScreen, new TravelScreen());
+        screenManager.Register(GameState.PortOverview, new PortOverviewScreen());
+
+        GameManager.Instance.SetGameState(GameState.MainMenu);
     }
 
     protected override void Update(GameTime gameTime)
     {
-        // if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-        //     Exit();
+            var currentKeyboardState = Keyboard.GetState();
 
-        switch (GameManager.Instance.CurrentState)
+        // If ESC was just pressed
+        if (currentKeyboardState.IsKeyDown(Keys.Escape) && previousKeyboardState.IsKeyUp(Keys.Escape))
         {
-            case GameState.PortOverview:
-                // Show port overview screen
-                portOverviewScreen.Update(gameTime);
-                break;
-            case GameState.TradeScreen:
-                // Show list of items for trade
-                tradeScreen.Update(gameTime);
-                break;
-            case GameState.TravelScreen:
-                // Show travel destinations and costs
-                break;
-            case GameState.GameOver:
-                // Show game over screen
-                break;
+            if (GameManager.Instance.CurrentState == GameState.MainMenu &&
+                GameManager.Instance.HasPreviousState())
+            {
+                GameManager.Instance.ReturnToPreviousState();
+            }
+            else
+            {
+                GameManager.Instance.SetGameState(GameState.MainMenu);
+            }
         }
 
+        previousKeyboardState = currentKeyboardState;
+        ScreenManagerRef.Update(gameTime);
         base.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)
     {
         GraphicsDevice.Clear(Color.Black);
-
-        switch (GameManager.Instance.CurrentState)
-        {
-            case GameState.PortOverview:
-                portOverviewScreen.Draw(_spriteBatch);
-                break;
-            case GameState.TradeScreen:
-                // Show list of items for trade
-                tradeScreen.Draw(_spriteBatch);
-                break;
-            case GameState.TravelScreen:
-                // Show travel destinations and costs
-                break;
-            case GameState.GameOver:
-                // Show game over screen
-                break;
-        }
+        ScreenManagerRef.Draw(_spriteBatch);
         base.Draw(gameTime);
     }
 }

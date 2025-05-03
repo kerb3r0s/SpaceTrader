@@ -19,11 +19,12 @@ namespace SpaceTrader.UI
         public bool IsHovered { get; private set; }
         public bool WasClicked { get; private set; }
 
-        public Button(Rectangle bounds, string text, SpriteFont font, Texture2D texture = null)
+        public Button(Rectangle bounds, string text, SpriteFont font, Texture2D texture = null, Color? textColor = null)
         {
             Bounds = bounds;
             Text = text;
             Font = font;
+            TextColor = textColor ?? Color.Black; // Default to black if no color is provided
             Texture = texture;
         }
 

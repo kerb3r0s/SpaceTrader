@@ -33,3 +33,16 @@ D:\Media\Projects\Coding\SpaceTrader\obj\Debug\net8.0\SpaceTrader.pdb
 D:\Media\Projects\Coding\SpaceTrader\obj\Debug\net8.0\SpaceTrader.genruntimeconfig.cache
 D:\Media\Projects\Coding\SpaceTrader\obj\Debug\net8.0\ref\SpaceTrader.dll
 D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\UI\button.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\UI\screenEmpty.xnb
+D:\Media\Projects\Coding\SpaceTrader\obj\Debug\net8.0\SpaceTrader.sourcelink.json
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\UI\terminalEmpty.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\UI\terminalButton.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\UI\MainMenu.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\ceres.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\europa.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\kuiper.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\mars.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\pluto.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\titan.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\venus.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\UI\cockpit.xnb

@@ -1,2 +1,4 @@
 .config
 .vscode
+obj/Release
+bin/Release
