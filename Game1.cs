@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using SpaceTrader.Screens;
+using SpaceTrader.UI;
 
 namespace SpaceTrader;
 
@@ -8,6 +10,8 @@ public class Game1 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
+    PortOverviewScreen portOverviewScreen;
+    TradeScreen tradeScreen;
 
     public Game1()
     {
@@ -18,8 +22,7 @@ public class Game1 : Game
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
-
+        GameManager.Instance.StartNewGame();
         base.Initialize();
     }
 
@@ -27,25 +30,59 @@ public class Game1 : Game
     {
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-        // TODO: use this.Content to load your game content here
+        GameManager.Instance.StartNewGame();
+        portOverviewScreen = new PortOverviewScreen();
+        portOverviewScreen.LoadContent(GraphicsDevice, Content);
+        tradeScreen = new TradeScreen();
+        tradeScreen.LoadContent(Content);
     }
 
     protected override void Update(GameTime gameTime)
     {
-        if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-            Exit();
+        // if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+        //     Exit();
 
-        // TODO: Add your update logic here
+        switch (GameManager.Instance.CurrentState)
+        {
+            case GameState.PortOverview:
+                // Show port overview screen
+                portOverviewScreen.Update(gameTime);
+                break;
+            case GameState.TradeScreen:
+                // Show list of items for trade
+                tradeScreen.Update(gameTime);
+                break;
+            case GameState.TravelScreen:
+                // Show travel destinations and costs
+                break;
+            case GameState.GameOver:
+                // Show game over screen
+                break;
+        }
 
         base.Update(gameTime);
     }
 
     protected override void Draw(GameTime gameTime)
     {
-        GraphicsDevice.Clear(Color.CornflowerBlue);
+        GraphicsDevice.Clear(Color.Black);
 
-        // TODO: Add your drawing code here
-
+        switch (GameManager.Instance.CurrentState)
+        {
+            case GameState.PortOverview:
+                portOverviewScreen.Draw(_spriteBatch);
+                break;
+            case GameState.TradeScreen:
+                // Show list of items for trade
+                tradeScreen.Draw(_spriteBatch);
+                break;
+            case GameState.TravelScreen:
+                // Show travel destinations and costs
+                break;
+            case GameState.GameOver:
+                // Show game over screen
+                break;
+        }
         base.Draw(gameTime);
     }
 }

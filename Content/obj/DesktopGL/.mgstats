@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"d:/Media/Projects/Coding/SpaceTrader/Content/Fonts/Default.spritefont","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Fonts/Default.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21529,0.1010112
+"d:/Media/Projects/Coding/SpaceTrader/Content/Ports/mercury.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Ports/mercury.xnb","TextureProcessor","Texture2DContent",1424905,4194389,0.1148524
+"d:/Media/Projects/Coding/SpaceTrader/Content/UI/buy.png","d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/UI/buy.xnb","TextureProcessor","Texture2DContent",164888,414625,0.0077587
