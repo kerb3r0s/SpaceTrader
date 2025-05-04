@@ -31,7 +31,7 @@ namespace SpaceTrader.Screens
             backgroundTexture = content.Load<Texture2D>("UI/cockpit");
             availableDestinations = PortsDatabase.AllPorts.FindAll(p => p != currentPort);
             travelButtons = new List<Button>();
-
+            Game1.AudioManager.LoadSfx("click");
             int screenWidth = graphicsDevice.Viewport.Width; // Get the screen width
             int buttonWidth = 300; // Width of the button
             int startY = 100;
@@ -60,6 +60,7 @@ namespace SpaceTrader.Screens
 
                 if (travelButtons[i].WasClicked)
                 {
+                    Game1.AudioManager.PlaySfx("click");
                     Port destination = availableDestinations[i];
                     int cost = GetTravelCost(GameManager.Instance.CurrentPort, destination);
                     Console.WriteLine($"Travelling to destination port: {destination.Name}, Travel Cost: {cost}");

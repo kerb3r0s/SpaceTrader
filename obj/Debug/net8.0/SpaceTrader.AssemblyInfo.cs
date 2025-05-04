@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceTrader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3e414303e6a6fbcffb4cb83f9fdc70492e6add0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5678de492dcbd633a1b414b2c2dc5585847a469f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceTrader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceTrader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

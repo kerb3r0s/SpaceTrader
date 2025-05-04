@@ -34,6 +34,7 @@ namespace SpaceTrader.Screens
             portDescription = currentPort.Description;
             
             backgroundTexture = content.Load<Texture2D>(currentPort.BackgroundImagePath);
+            Game1.AudioManager.LoadSfx("click");
             font = content.Load<SpriteFont>("Fonts/Default");
             buttonTexture = content.Load<Texture2D>("UI/button");  // Placeholder button image
             terminalTexture = content.Load<Texture2D>("UI/terminalEmpty"); 
@@ -65,6 +66,7 @@ namespace SpaceTrader.Screens
 
             if (continueButton.WasClicked)
             {
+                Game1.AudioManager.PlaySfx("click");
                 GameManager.Instance.SetGameState(GameState.TradeScreen);
             }
         }

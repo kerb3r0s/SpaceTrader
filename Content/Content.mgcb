@@ -20,6 +20,18 @@
 /processorParam:TextureFormat=Compressed
 /build:Fonts/Default.spritefont
 
+#begin FX/click.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:FX/click.wav
+
+#begin Music/singularity.mp3
+/importer:Mp3Importer
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Music/singularity.mp3
+
 #begin Ports/ceres.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -151,6 +163,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:UI/cockpit.png
+
+#begin UI/logo.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:UI/logo.png
 
 #begin UI/MainMenu.png
 /importer:TextureImporter
