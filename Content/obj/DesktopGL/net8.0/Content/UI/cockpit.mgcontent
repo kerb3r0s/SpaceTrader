@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>D:/Media/Projects/Coding/SpaceTrader/Content/UI/cockpit.png</SourceFile>
-  <SourceTime>2025-05-03T23:24:11.853537-04:00</SourceTime>
+  <SourceTime>2025-05-04T01:14:54.5096763-04:00</SourceTime>
   <DestFile>D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/UI/cockpit.xnb</DestFile>
-  <DestTime>2025-05-03T23:32:47.3175194-04:00</DestTime>
+  <DestTime>2025-05-04T01:15:22.3521236-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-04-05T06:10:54-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

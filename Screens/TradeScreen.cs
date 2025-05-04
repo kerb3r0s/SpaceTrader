@@ -40,7 +40,7 @@ namespace SpaceTrader.Screens
             buttonTexture = content.Load<Texture2D>("UI/button");
             terminalButtonTexture = content.Load<Texture2D>("UI/terminalButton");
             terminalTexture = content.Load<Texture2D>("UI/terminalEmpty"); 
-
+            Game1.AudioManager.LoadSfx("click");
             var port = GameManager.Instance.CurrentPort;
             goods = port.AvailableGoods;
 
@@ -93,6 +93,7 @@ namespace SpaceTrader.Screens
                 // Handle Buy
                 if (buyButtons[i].WasClicked)
                 {
+                    Game1.AudioManager.PlaySfx("click");
                     if (player.Credits >= totalBuyCost && player.CanAddCargo(quantity))
                     {
                         player.Credits -= totalBuyCost;
@@ -105,6 +106,7 @@ namespace SpaceTrader.Screens
                 // Handle Sell
                 if (sellButtons[i].WasClicked)
                 {
+                    Game1.AudioManager.PlaySfx("click");
                     if (ownedQty >= quantity)
                     {
                         player.Credits += good.BasePrice * quantity;
@@ -117,6 +119,7 @@ namespace SpaceTrader.Screens
                 // Handle done trading
                 if (doneButton.WasClicked)
                 {
+                    Game1.AudioManager.PlaySfx("click");
                     SaveLoadManager.SaveGame(GameManager.Instance.Player);
                     GameManager.Instance.SetGameState(GameState.TravelScreen);
                 }

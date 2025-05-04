@@ -5,15 +5,35 @@
   <Config />
   <SourceFiles>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/Fonts/Default.spritefont</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/FX/click.wav</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/Music/singularity.mp3</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/ceres.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/europa.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/kuiper.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/mars.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/mercury.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/pluto.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/titan.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/venus.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/button.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/buy.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/cockpit.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/MainMenu.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/screenEmpty.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalButton.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalEmpty.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

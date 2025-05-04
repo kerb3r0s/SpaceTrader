@@ -46,3 +46,8 @@ D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\pluto.xnb
 D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\titan.xnb
 D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Ports\venus.xnb
 D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\UI\cockpit.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Music\singularity.ogg
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\Music\singularity.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\FX\click.ogg
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\FX\click.xnb
+D:\Media\Projects\Coding\SpaceTrader\bin\Debug\net8.0\Content\UI\logo.xnb

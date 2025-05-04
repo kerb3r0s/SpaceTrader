@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using SpaceTrader.Screens;
 using SpaceTrader.UI;
+using SpaceTrader.Audio;
 
 namespace SpaceTrader;
 
@@ -12,13 +13,13 @@ public class Game1 : Game
     private KeyboardState previousKeyboardState;
     public static Game1 Instance { get; private set; }
     public static ScreenManager ScreenManagerRef { get; private set; }
+    public static AudioManager AudioManager { get; private set; }
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
-    PortOverviewScreen portOverviewScreen;
-    TradeScreen tradeScreen;
-    TravelScreen travelScreen;
-    MainMenuScreen mainMenu;
+    // PortOverviewScreen portOverviewScreen;
+    // TradeScreen tradeScreen;
+    // TravelScreen travelScreen;
     ScreenManager screenManager;
     
     public Game1()
@@ -57,12 +58,16 @@ public class Game1 : Game
         screenManager.Register(GameState.TravelScreen, new TravelScreen());
         screenManager.Register(GameState.PortOverview, new PortOverviewScreen());
 
+        AudioManager = new AudioManager();
+        AudioManager.Initialize(Content);
+
         GameManager.Instance.SetGameState(GameState.MainMenu);
     }
 
     protected override void Update(GameTime gameTime)
     {
-            var currentKeyboardState = Keyboard.GetState();
+        AudioManager.Update(gameTime);
+        var currentKeyboardState = Keyboard.GetState();
 
         // If ESC was just pressed
         if (currentKeyboardState.IsKeyDown(Keys.Escape) && previousKeyboardState.IsKeyUp(Keys.Escape))
