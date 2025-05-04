@@ -1,5 +1,17 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "D:/Media/Projects/Coding/SpaceTrader/Content/Fonts/Default.spritefont","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Fonts/Default.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21529,0.1190222
-"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/mercury.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/mercury.xnb","TextureProcessor","Texture2DContent",1424905,4194389,0.1555975
+"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/ceres.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/ceres.xnb","TextureProcessor","Texture2DContent",2338584,6291541,0.1955837
+"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/europa.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/europa.xnb","TextureProcessor","Texture2DContent",1893142,6291541,0.1137971
+"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/kuiper.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/kuiper.xnb","TextureProcessor","Texture2DContent",2096129,6291541,0.1057754
+"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/mars.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/mars.xnb","TextureProcessor","Texture2DContent",2536897,6291541,0.0923213
+"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/mercury.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/mercury.xnb","TextureProcessor","Texture2DContent",2460496,6291541,0.2572101
+"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/pluto.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/pluto.xnb","TextureProcessor","Texture2DContent",1824701,6291541,0.1054839
+"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/titan.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/titan.xnb","TextureProcessor","Texture2DContent",2061008,6291541,0.0961386
+"D:/Media/Projects/Coding/SpaceTrader/Content/Ports/venus.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/Ports/venus.xnb","TextureProcessor","Texture2DContent",2075089,6291541,0.081295
 "D:/Media/Projects/Coding/SpaceTrader/Content/UI/button.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/UI/button.xnb","TextureProcessor","Texture2DContent",123918,414625,0.0873708
 "D:/Media/Projects/Coding/SpaceTrader/Content/UI/buy.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/UI/buy.xnb","TextureProcessor","Texture2DContent",164888,414625,0.0109343
+"D:/Media/Projects/Coding/SpaceTrader/Content/UI/cockpit.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/UI/cockpit.xnb","TextureProcessor","Texture2DContent",1882448,6291541,0.1713145
+"D:/Media/Projects/Coding/SpaceTrader/Content/UI/MainMenu.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/UI/MainMenu.xnb","TextureProcessor","Texture2DContent",2120388,6291541,0.1979048
+"D:/Media/Projects/Coding/SpaceTrader/Content/UI/screenEmpty.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/UI/screenEmpty.xnb","TextureProcessor","Texture2DContent",1655624,4194389,0.1540051
+"D:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalButton.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/UI/terminalButton.xnb","TextureProcessor","Texture2DContent",67086,20485,0.0814963
+"D:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalEmpty.png","D:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/Content/UI/terminalEmpty.xnb","TextureProcessor","Texture2DContent",1424617,3276181,0.1240577

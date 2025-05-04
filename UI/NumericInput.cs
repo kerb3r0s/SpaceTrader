@@ -7,7 +7,7 @@ namespace SpaceTrader.UI
     public class NumericInput
     {
         public int Value { get; private set; }
-        public Rectangle Bounds { get; private set; }
+        public Rectangle Bounds { get; set; }
 
         private Button plusButton;
         private Button minusButton;
@@ -23,10 +23,10 @@ namespace SpaceTrader.UI
             var buttonHeight = bounds.Height;
 
             minusButton = new Button(
-                new Rectangle(bounds.X, bounds.Y, buttonWidth, buttonHeight), "-", font, buttonTexture);
+                new Rectangle(bounds.X + 397, bounds.Y + 60, buttonWidth, buttonHeight), "-", font, buttonTexture);
 
             plusButton = new Button(
-                new Rectangle(bounds.X + bounds.Width - buttonWidth, bounds.Y, buttonWidth, buttonHeight), "+", font, buttonTexture);
+                new Rectangle(bounds.X + 397 - (buttonWidth + 15 ), bounds.Y + 60 , buttonWidth, buttonHeight), "+", font, buttonTexture);
         }
 
         public void Update(GameTime gameTime)

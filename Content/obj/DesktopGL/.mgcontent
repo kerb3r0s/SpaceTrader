@@ -6,9 +6,19 @@
   <SourceFiles>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/Fonts/Default.spritefont</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/Ports/mercury.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/button.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/buy.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/MainMenu.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/screenEmpty.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalButton.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalEmpty.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

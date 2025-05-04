@@ -5,11 +5,35 @@
   <Config />
   <SourceFiles>
     <File>D:/Media/Projects/Coding/SpaceTrader/Content/Fonts/Default.spritefont</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/Ports/ceres.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/Ports/europa.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/Ports/kuiper.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/Ports/mars.png</File>
     <File>D:/Media/Projects/Coding/SpaceTrader/Content/Ports/mercury.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/Ports/pluto.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/Ports/titan.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/Ports/venus.png</File>
     <File>D:/Media/Projects/Coding/SpaceTrader/Content/UI/button.png</File>
     <File>D:/Media/Projects/Coding/SpaceTrader/Content/UI/buy.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/UI/cockpit.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/UI/MainMenu.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/UI/screenEmpty.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalButton.png</File>
+    <File>D:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalEmpty.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
