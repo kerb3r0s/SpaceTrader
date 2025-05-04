@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SpaceTrader
+namespace StarSmuggler
 {
     public class SaveData
     {

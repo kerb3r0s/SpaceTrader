@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SpaceTrader
+namespace StarSmuggler
 {
     public static class PortsDatabase
     {
@@ -16,7 +16,7 @@ namespace SpaceTrader
                 new Port("Ceres Free Port", "Neutral ground for traders and asteroid miners.", PortZone.Inner, "Ports/ceres"),
 
                 new Port("Europa Ice Docks", "Subsurface ocean labs and illicit biotrade.", PortZone.Outer, "Ports/europa"),
-                new Port("Titan Outpost", "Foggy noir smuggler den under Saturn’s eye.", PortZone.Outer, "Ports/titan"),
+                new Port("Titan Outpost", "Foggy noir smuggler den under the massive eye of Saturn.", PortZone.Outer, "Ports/titan"),
 
                 new Port("Pluto Relic Vault", "Forbidden site of ancient tech discoveries.", PortZone.Fringe, "Ports/pluto"),
                 new Port("Kuiper Flotilla", "Nomadic pirate fleet beyond Neptune.", PortZone.Fringe, "Ports/kuiper")

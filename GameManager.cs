@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using SpaceTrader.Events;
+using StarSmuggler.Events;
 
-namespace SpaceTrader
+namespace StarSmuggler
 {
     public class GameManager
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SpaceTrader.Events
+namespace StarSmuggler.Events
 {
     public static class EventDatabase
     {

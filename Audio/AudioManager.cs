@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Audio;
 using System;
 using System.Collections.Generic;
 
-namespace SpaceTrader.Audio
+namespace StarSmuggler.Audio
 {
     public class AudioManager
     {

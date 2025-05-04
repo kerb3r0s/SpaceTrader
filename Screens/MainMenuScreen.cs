@@ -2,11 +2,11 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Media;
-// using SpaceTrader.Screens;
-using SpaceTrader.UI;
+// using StarSmuggler.Screens;
+using StarSmuggler.UI;
 using System.Collections.Generic;
 
-namespace SpaceTrader.Screens
+namespace StarSmuggler.Screens
 {
     public class MainMenuScreen : IScreen
     {

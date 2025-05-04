@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace SpaceTrader.UI
+namespace StarSmuggler.UI
 {
     public class NumericInput
     {

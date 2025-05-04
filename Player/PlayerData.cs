@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SpaceTrader {
+namespace StarSmuggler {
     public class PlayerData
     {
         public int Credits { get; set; }

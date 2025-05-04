@@ -1,6 +1,6 @@
 // Define the Good class and its properties. What does it MEAN to be a good?
 
-namespace SpaceTrader {
+namespace StarSmuggler {
     
     // Define global references to the rarity properties of goods
     public enum GoodRarity

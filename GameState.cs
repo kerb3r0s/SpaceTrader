@@ -1,4 +1,4 @@
-namespace SpaceTrader
+namespace StarSmuggler
 {
     public enum GameState
     {

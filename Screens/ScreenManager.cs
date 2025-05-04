@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 
-namespace SpaceTrader.Screens
+namespace StarSmuggler.Screens
 {
     public class ScreenManager
     {

@@ -1,2 +1,2 @@
-﻿using var game = new SpaceTrader.Game1();
+﻿using var game = new StarSmuggler.Game1();
 game.Run();
