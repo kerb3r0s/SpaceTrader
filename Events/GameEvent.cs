@@ -1,6 +1,6 @@
 using System;
 
-namespace SpaceTrader.Events
+namespace StarSmuggler.Events
 {
     public class GameEvent
     {

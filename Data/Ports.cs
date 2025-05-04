@@ -1,7 +1,7 @@
 // Import the libraries we need to work with dicitionaries and lists
 using System.Collections.Generic;
 
-namespace SpaceTrader {
+namespace StarSmuggler {
 
     public enum PortZone
     {

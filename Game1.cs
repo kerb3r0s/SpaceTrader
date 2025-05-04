@@ -1,11 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using SpaceTrader.Screens;
-using SpaceTrader.UI;
-using SpaceTrader.Audio;
+using StarSmuggler.Screens;
+using StarSmuggler.UI;
+using StarSmuggler.Audio;
 
-namespace SpaceTrader;
+namespace StarSmuggler;
 
 
 public class Game1 : Game

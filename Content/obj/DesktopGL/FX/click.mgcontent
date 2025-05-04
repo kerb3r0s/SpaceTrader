@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>d:/Media/Projects/Coding/SpaceTrader/Content/FX/click.wav</SourceFile>
-  <SourceTime>2025-05-04T01:48:53.4681953-04:00</SourceTime>
+  <SourceTime>2025-05-04T02:20:31.4994424-04:00</SourceTime>
   <DestFile>d:/Media/Projects/Coding/SpaceTrader/Content/bin/DesktopGL/FX/click.xnb</DestFile>
-  <DestTime>2025-05-04T01:49:34.9493016-04:00</DestTime>
+  <DestTime>2025-05-04T09:21:08.0555546-04:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2025-04-05T06:10:54-04:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

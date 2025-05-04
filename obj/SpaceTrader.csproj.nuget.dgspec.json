@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Media\\Projects\\Coding\\SpaceTrader\\SpaceTrader.csproj": {}
+    "D:\\Media\\Projects\\Coding\\StarSmuggler\\StarSmuggler.csproj": {}
   },
   "projects": {
-    "D:\\Media\\Projects\\Coding\\SpaceTrader\\SpaceTrader.csproj": {
+    "D:\\Media\\Projects\\Coding\\StarSmuggler\\StarSmuggler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Media\\Projects\\Coding\\SpaceTrader\\SpaceTrader.csproj",
-        "projectName": "SpaceTrader",
-        "projectPath": "D:\\Media\\Projects\\Coding\\SpaceTrader\\SpaceTrader.csproj",
+        "projectUniqueName": "D:\\Media\\Projects\\Coding\\StarSmuggler\\StarSmuggler.csproj",
+        "projectName": "StarSmuggler",
+        "projectPath": "D:\\Media\\Projects\\Coding\\StarSmuggler\\StarSmuggler.csproj",
         "packagesPath": "C:\\Users\\obero\\.nuget\\packages\\",
-        "outputPath": "D:\\Media\\Projects\\Coding\\SpaceTrader\\obj\\",
+        "outputPath": "D:\\Media\\Projects\\Coding\\StarSmuggler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\obero\\AppData\\Roaming\\NuGet\\NuGet.Config"

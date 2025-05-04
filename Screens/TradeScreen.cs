@@ -3,10 +3,10 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 using System.Collections.Generic;
-using SpaceTrader.UI;
+using StarSmuggler.UI;
 
 
-namespace SpaceTrader.Screens
+namespace StarSmuggler.Screens
 {
     public class TradeScreen : IScreen
     {

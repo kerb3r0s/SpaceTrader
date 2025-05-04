@@ -342,9 +342,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Media\\Projects\\Coding\\SpaceTrader\\SpaceTrader.csproj",
-      "projectName": "SpaceTrader",
-      "projectPath": "D:\\Media\\Projects\\Coding\\SpaceTrader\\SpaceTrader.csproj",
+      "projectUniqueName": "D:\\Media\\Projects\\Coding\\SpaceTrader\\StarSmuggler.csproj",
+      "projectName": "StarSmuggler",
+      "projectPath": "D:\\Media\\Projects\\Coding\\SpaceTrader\\StarSmuggler.csproj",
       "packagesPath": "C:\\Users\\obero\\.nuget\\packages\\",
       "outputPath": "D:\\Media\\Projects\\Coding\\SpaceTrader\\obj\\",
       "projectStyle": "PackageReference",

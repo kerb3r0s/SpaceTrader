@@ -18,12 +18,14 @@
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/button.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/buy.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/cockpit.png</File>
+    <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/logo.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/MainMenu.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/screenEmpty.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalButton.png</File>
     <File>d:/Media/Projects/Coding/SpaceTrader/Content/UI/terminalEmpty.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -2,13 +2,13 @@ using System.IO;
 using System.Text.Json;
 using System.Collections.Generic;
 
-namespace SpaceTrader
+namespace StarSmuggler
 {
     public static class SaveLoadManager
     {
         private static string SavePath => Path.Combine(
             System.Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData),
-            "SpaceTraderGame",
+            "StarSmugglerGame",
             "save.json"
         );
 
